@@ -4,7 +4,7 @@ set -Eeo pipefail
 
 
 ##### Get parameters based on environment. This will be moved to SSM in the next update.
-DEPLOY_BUCKET_NAME="s3://oliver.bilbie/co.uk"
+DEPLOY_BUCKET_NAME="s3://oliver.bilbie.co.uk"
 CF_DISTRIBUTION_ID="E1CDADP2S7DONT"
 
 
