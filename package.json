@@ -35,7 +35,7 @@
         "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
         "test": "react-scripts test --watchAll=false",
         "pretty": "prettier --write \"src/**/*.{tsx,ts}\"",
-        "lint": "eslint src/*"
+        "lint": "eslint src/* --no-error-on-unmatched-pattern"
     },
     "browserslist": {
         "production": [
