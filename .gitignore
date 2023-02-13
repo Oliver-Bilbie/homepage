@@ -1,0 +1,7 @@
+# Frontend
+node_modules
+build
+yarn.lock
+
+# Misc
+.vscode
